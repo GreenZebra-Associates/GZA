@@ -37,8 +37,8 @@
   .nav-stripe { width: 4px; height: 28px; background: white; border-radius: 1px; }
   .nav-stripe.green { background: var(--green); }
   .nav-brand { font-family: 'Bebas Neue', sans-serif; font-size: 2.2rem; color: white; letter-spacing: 3px; }
-  .nav-links { display: flex; gap: 2.5rem; }
-  .nav-links a { color: #ccc; text-decoration: none; font-size: 0.85rem; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links { display: flex; gap: 1.4rem; }
+  .nav-links a { color: #ccc; text-decoration: none; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.8px; text-transform: uppercase; transition: color 0.2s; }
   .nav-links a:hover { color: var(--green-light); }
   .nav-cta { background: var(--green); color: white !important; padding: 0.45rem 1.2rem; border-radius: 2px; }
   .nav-cta:hover { background: var(--green-light) !important; color: white !important; }
@@ -227,8 +227,11 @@
   </a>
   <div class="nav-links">
     <a href="#about">About</a>
+    <a href="#services" onclick="setTimeout(()=>showTab('who'),100)">Who We Are</a>
     <a href="#services" onclick="setTimeout(()=>showTab('services'),100)">Services</a>
     <a href="#services" onclick="setTimeout(()=>showTab('projects'),100)">Projects</a>
+    <a href="#services" onclick="setTimeout(()=>showTab('approach'),100)">Our Approach</a>
+    <a href="#services" onclick="setTimeout(()=>showTab('why'),100)">Why Green Zebra</a>
     <a href="#contact" class="nav-cta">Get in Touch</a>
   </div>
 </nav>
@@ -296,7 +299,7 @@
 <!-- TABBED SECTION -->
 <section class="tabs-section" id="services">
   <div class="section-inner">
-    <div class="tabs-nav">
+    <div class="tabs-nav" style="display:none">
       <button class="tab-btn active" onclick="showTab('who')">Who We Are</button>
       <button class="tab-btn" onclick="showTab('services')">Our Services</button>
       <button class="tab-btn" onclick="showTab('projects')">Projects</button>
