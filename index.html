@@ -528,4 +528,26 @@
 
 <!-- FOOTER -->
 <footer>
-  <span class="footer-brand">GREEN 
+  <span class="footer-brand">ZEBRA</span>
+  <span>© 2025 Green Zebra 2020 Ltd. All rights reserved.</span>
+  <span>Auckland, New Zealand</span>
+</footer>
+
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab-panel').forEach(function(p) {
+    p.classList.remove('active');
+  });
+  var panel = document.getElementById('tab-' + id);
+  if (panel) panel.classList.add('active');
+  document.querySelectorAll('.tab-btn').forEach(function(b) {
+    b.classList.remove('active');
+    if (b.getAttribute('onclick') && b.getAttribute('onclick').indexOf("'" + id + "'") !== -1) {
+      b.classList.add('active');
+    }
+  });
+}
+</script>
+
+</body>
+</html>
