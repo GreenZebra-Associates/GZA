@@ -253,11 +253,11 @@
     <span class="nav-brand">Green Zebra</span>
   </a>
   <div class="nav-links">
-    <a href="#about">Who We Are</a>
-    <a href="#services" onclick="setTimeout(()=>showTab('services'),100)">What We Do</a>
-    <a href="#services" onclick="setTimeout(()=>showTab('projects'),100)">Our Work</a>
-    <a href="#services" onclick="setTimeout(()=>showTab('approach'),100)">How We Work</a>
-    <a href="#services" onclick="setTimeout(()=>showTab('why'),100)">Why Us</a>
+    <a href="#who-we-are">Who We Are</a>
+    <a href="#what-we-do">What We Do</a>
+    <a href="#our-work">Our Work</a>
+    <a href="#how-we-work">How We Work</a>
+    <a href="#why-us">Why Us</a>
     <a href="#contact" class="nav-cta">Talk to Brett</a>
   </div>
 </nav>
@@ -326,19 +326,11 @@
 </section>
 
 <!-- TABBED SECTION -->
-<section class="tabs-section" id="services">
-  <div class="section-inner">
-    <div class="tabs-nav" style="display:none">
-      <button class="tab-btn active" onclick="showTab('who')">Who We Are</button>
-      <button class="tab-btn" onclick="showTab('services')">Our Services</button>
-      <button class="tab-btn" onclick="showTab('projects')">Projects</button>
-      <button class="tab-btn" onclick="showTab('approach')">Our Approach</button>
-      <button class="tab-btn" onclick="showTab('why')">Why Green Zebra</button>
-    </div>
 
-    <!-- WHO WE ARE -->
-    <div class="tab-panel active" id="tab-who">
-      <div class="section-tag">Who We Are</div>
+<!-- WHO-WE-ARE -->
+<section id="who-we-are" style="background:var(--off-white); padding:5rem 3rem;">
+  <div class="section-inner">
+    <div class="section-tag">Who We Are</div>
       <h2 class="section-title">On Site. Every Time.</h2>
       <div class="tab-two-col">
         <div>
@@ -359,8 +351,14 @@
     </div>
 
     <!-- OUR SERVICES -->
-    <div class="tab-panel" id="tab-services">
-      <div class="section-tag">What We Do</div>
+  </div>
+</section>
+
+
+<!-- WHAT-WE-DO -->
+<section id="what-we-do" style="background:white; padding:5rem 3rem;">
+  <div class="section-inner">
+    <div class="section-tag">What We Do</div>
       <h2 class="section-title">Full Lifecycle Management</h2>
       <p class="tab-lead">Green Zebra manages the full development and construction lifecycle — from the first consent strategy through to CCC sign-off and handover. Four core service areas, one person managing all of it.</p>
       <div class="services-grid">
@@ -412,8 +410,14 @@
     </div>
 
     <!-- PROJECTS -->
-    <div class="tab-panel" id="tab-projects">
-      <div class="section-tag">Track Record</div>
+  </div>
+</section>
+
+
+<!-- OUR-WORK -->
+<section id="our-work" style="background:var(--off-white); padding:5rem 3rem;">
+  <div class="section-inner">
+    <div class="section-tag">Track Record</div>
       <h2 class="section-title">Selected Projects</h2>
       <p class="tab-lead">From emergency structural repairs to construction programmes valued at $300M+ — every project managed end-to-end by Brett as the single point of contact.</p>
       <div class="projects-grid">
@@ -481,8 +485,14 @@
     </div>
 
     <!-- OUR APPROACH -->
-    <div class="tab-panel" id="tab-approach">
-      <div class="section-tag">How We Work</div>
+  </div>
+</section>
+
+
+<!-- HOW-WE-WORK -->
+<section id="how-we-work" style="background:white; padding:5rem 3rem;">
+  <div class="section-inner">
+    <div class="section-tag">How We Work</div>
       <h2 class="section-title">Practical. Direct. Accountable.</h2>
       <p class="tab-lead">Green Zebra works directly with clients — no layers, no hand-offs, no confusion about who is responsible for what. Every engagement follows the same disciplined process regardless of scale.</p>
       <div class="why-grid">
@@ -510,8 +520,14 @@
     </div>
 
     <!-- WHY GREEN ZEBRA -->
-    <div class="tab-panel" id="tab-why">
-      <div class="section-tag">The Difference</div>
+  </div>
+</section>
+
+
+<!-- WHY-US -->
+<section id="why-us" style="background:var(--off-black); padding:5rem 3rem;" style="color:white;">
+  <div class="section-inner">
+    <div class="section-tag">The Difference</div>
       <h2 class="section-title">Why Us</h2>
       <p class="tab-lead">Most project managers manage from a desk. Brett manages from the site. Here is what that means for your project.</p>
       <div class="why-grid">
@@ -538,6 +554,8 @@
       </div>
     </div>
 
+  </div>
+</section>
   </div>
 </section>
 
