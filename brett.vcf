@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Archer;Brett;;;
+FN:Brett Archer
+ORG:Green Zebra 2020 Ltd
+TITLE:Director
+TEL;TYPE=CELL,VOICE:+64274771060
+EMAIL;TYPE=WORK,INTERNET:ba@greenzebra.nz
+URL:https://greenzebra.nz
+ADR;TYPE=WORK:;;;Auckland;;;New Zealand
+NOTE:BLA, PGDipPM — Green Zebra Project Management. On Site. Every Time.
+END:VCARD
