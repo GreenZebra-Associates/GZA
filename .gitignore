@@ -1,0 +1,6 @@
+# Keep drafts and working files off the public website
+index-DRAFT.html
+index.backup-*.html
+*.docx
+Thumbs.db
+.DS_Store
